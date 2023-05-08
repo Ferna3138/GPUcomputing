@@ -1,0 +1,10 @@
+﻿  Compiling CUDA source file SobelFilter.cu...
+  
+  C:\Users\fernandoedelstein\Documents\CUDA\CudaRuntime>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Users\fernandoedelstein\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\fernandoedelstein\Documents\CUDA\CudaRuntime\x64\Debug\SobelFilter.cu.obj "C:\Users\fernandoedelstein\Documents\CUDA\CudaRuntime\SobelFilter.cu" 
+  SobelFilter.cu
+  tmpxft_00005fd8_00000000-7_SobelFilter.cudafe1.cpp
+C:\Users\fernandoedelstein\Documents\CUDA\CudaRuntime\SobelFilter.cu(90): warning C4996: 'cudaThreadSynchronize': was declared deprecated
+C:\Users\fernandoedelstein\Documents\CUDA\CudaRuntime\SobelFilter.cu(106): warning C4996: 'cudaThreadSynchronize': was declared deprecated
+     Creating library C:\Users\fernandoedelstein\Documents\CUDA\CudaRuntime\x64\Debug\CudaRuntime.lib and object C:\Users\fernandoedelstein\Documents\CUDA\CudaRuntime\x64\Debug\CudaRuntime.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  CudaRuntime.vcxproj -> C:\Users\fernandoedelstein\Documents\CUDA\CudaRuntime\x64\Debug\CudaRuntime.exe
